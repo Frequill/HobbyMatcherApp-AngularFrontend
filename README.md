@@ -1,27 +1,16 @@
-# Hobbymatchningsapp
+# Hobbymatchningsapp - Use in tandem with its backend (Also on my github)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
-## Development server
+This project should be easy to run, simply download it and run using 'ng serve' command provided that you have angular installed.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Application is configured to run on default port localhost:4200 so simply connect to it using your webbrowser of choice.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This application is made to match users with other users based on your hobbies. Fun huh? :)
 
-## Build
+You can register an account, enter your details and whatever login information you'd like to share with others. You can then look for other accounts with similar 
+hobbies and/or likes as your self based on the order they show up under the "Flöde" page on the website. (Other users will be color-coded based on how well your
+profiles match so a green user means a good match, yellow is an okay match and red is barely matching)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Login works through Spring Security and JWT tokens.
